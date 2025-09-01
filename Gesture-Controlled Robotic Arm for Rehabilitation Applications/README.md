@@ -85,7 +85,7 @@ python virtual_drawing.py
 python realtime_control_dobot.py
 
 
-### Demos
+# Demos
 1. Finger Counting – Single Hand
 
 2. Finger Counting – Multi-Hand
@@ -100,18 +100,18 @@ python realtime_control_dobot.py
 
 (All videos available in /Demo/.)
 
-### Performance
-Accuracy: >90% gesture recognition in tests.
+# Performance
+- Accuracy: >90% gesture recognition in tests.
 
-Latency: Runs in real time on laptop CPU.
+- Latency: Runs in real time on laptop CPU.
 
-Robustness: Works under cluttered backgrounds and low-light conditions.
+- Robustness: Works under cluttered backgrounds and low-light conditions.
 
-### Applications
-Rehabilitation Therapy: Enables therapists to guide patient exercises while enforcing safe motion ranges.
+# Applications
+- Rehabilitation Therapy: Enables therapists to guide patient exercises while enforcing safe motion ranges.
 
-Human–Robot Interaction: Natural hands-free robot control.
+- Human–Robot Interaction: Natural hands-free robot control.
 
-STEM Education: Demonstrates full integration of AI + robotics.
+- STEM Education: Demonstrates full integration of AI + robotics.
 
 This repository includes the full working codebase, demos, and dissertation report, showing the complete pipeline from gesture perception → classification → robotic execution.
