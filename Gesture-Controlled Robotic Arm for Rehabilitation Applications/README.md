@@ -60,12 +60,12 @@ All modules are runnable and documented, covering **gesture recognition, CNN cla
 ```bash
 pip install opencv-python mediapipe cvzone tensorflow numpy pyserial
 
-2. Dobot SDK
+### 2. Dobot SDK
 Place DobotDllType.py and DLLs in Codes/ (or add to PYTHONPATH).
 
 Connect Dobot Magician via USB at 115200 baud.
 
-3. Run modules
+### 3. Run modules
 
 cd Codes/
 
@@ -85,7 +85,7 @@ python virtual_drawing.py
 python realtime_control_dobot.py
 
 
-Demos
+### Demos
 1. Finger Counting – Single Hand
 
 2. Finger Counting – Multi-Hand
@@ -100,14 +100,14 @@ Demos
 
 (All videos available in /Demo/.)
 
-Performance
+### Performance
 Accuracy: >90% gesture recognition in tests.
 
 Latency: Runs in real time on laptop CPU.
 
 Robustness: Works under cluttered backgrounds and low-light conditions.
 
-Applications
+### Applications
 Rehabilitation Therapy: Enables therapists to guide patient exercises while enforcing safe motion ranges.
 
 Human–Robot Interaction: Natural hands-free robot control.
